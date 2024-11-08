@@ -1,4 +1,6 @@
-1.	Country: List of the 179 countries
+Data schema from: https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated
+
+1.	Country: List of 179 countries
 2.	Region: 179 countries are distributed in 9 regions. E.g. Africa, Asia, Oceania, European Union, Rest of Europe and etc.
 3.	Year: Years observed from 2000 to 2015
 4.	Infant_deaths: Infant deaths per 1000 population
