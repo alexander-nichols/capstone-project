@@ -3,10 +3,10 @@ The dataset was provided on the Kaggle weksite [Life Expectancy (WHO) Fixed](htt
 
 ## Motivation
 **For what purpose was the dataset created?** _Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description._ <br>
-The primary motivation given [here](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated) is to correct an [existing](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who) WHO dataset. 
+The primary motivation given [here](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated) is to correct an existing WHO [dataset](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who) on life expectancy. 
 
 **Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?** <br>
-The dataset was created by a data scientist Lasha Gochiashvili. No affiliation was provided on [Kaggle](https://www.kaggle.com/lashagoch) 
+The dataset was created by a data scientist Lasha Gochiashvili. No affiliation was provided on the appropriate [Kaggle](https://www.kaggle.com/lashagoch) page. 
 
 **Who funded the creation of the dataset?** _If there is an associated grant, please provide the name of the grantor and the grant name and number._ <br>
 No funding is mentioned.
@@ -26,33 +26,47 @@ There are 2,864 instances in total.
 It contains all possible instances.
 
 **What data does each instance consist of?**  _“Raw” data (e.g., unprocessed text or images) or features? In either case, please provide a description._ <br>
+TBC
 
 **Is there a label or target associated with each instance?** _If so, please provide a description._ <br>
 
+
 **Is there any missing information from individual instances?** _If so, please provide a description, explaining why this information is missing (e.g., because it was unavailable). This does not include intentionally removed information, but might include, e.g., redacted text._ <br>
+No.
 
 **Are relationships between individual instances made explicit (e.g. users’ movie ratings, social network links)?** _If so, please describe how these relationships are made explicit._
+There are no relationships.
 
 **Are there recommended data splits (e.g., training, development/validation, testing)?** _If so, please provide a description of these splits, explaining the rationale behind them._ <br>
+No.
 
 **Are there any errors, sources of noise, or redundancies in the dataset?** _If so, please provide a description._ <br>
+There is no redundancy.
  
 **Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?** _If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (i.e., including the external resources as they existed at the time the dataset was created); c) are there any restrictions (e.g. licenses, fees) associated with any of the external resources that might apply to a dataset consumer? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate._ <br>
+The dataset is self-contained.
 
 **Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?** _If so, please provide a description._ <br>
+No.
 
 **Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?** _If so, please describe why._ <br>
+No.
 
 **Does the dataset identify any subpopulations (e.g., by age, gender)?** _If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset._ <br>
+The dataset is indexed by Country and Year.
 
 **Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset?** _If so, please describe how._
+No.
 
 **Does the dataset contain data that might be considered sensitive in any way (e.g., data that reveals race or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)?** _If so, please provide a description._ <br>
+No.
 
 **Any other comments?** <br>
+No.
 
 ## Collection process
 **How was the data associated with each instance acquired?** _How was the data associated with each instance acquired? Was the data directly observable (e.g., raw text, movie ratings), reported by subjects (e.g., survey responses), or indirectly inferred/derived from other data (e.g., part-of-speech tags, model-based guesses for age or language)? If the data was reported by subjects or indirectly inferred/derived from other data, was the data validated/verified? If so, please describe how._ <br>
+
 
 **What mechanisms or procedures were used to collect the data (e.g., hardware apparatuses or sensors, manual human curation, software programs, software APIs)?** _How were these mechanisms or procedures validated?_ <br>
 
