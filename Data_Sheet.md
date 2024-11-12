@@ -29,7 +29,7 @@ It contains all possible instances.
 TBC
 
 **Is there a label or target associated with each instance?** _If so, please provide a description._ <br>
-
+No. All numerical data, including life expectancy, is provided for each Country from the period 2000-2015.
 
 **Is there any missing information from individual instances?** _If so, please provide a description, explaining why this information is missing (e.g., because it was unavailable). This does not include intentionally removed information, but might include, e.g., redacted text._ <br>
 No.
@@ -66,83 +66,119 @@ No.
 
 ## Collection process
 **How was the data associated with each instance acquired?** _How was the data associated with each instance acquired? Was the data directly observable (e.g., raw text, movie ratings), reported by subjects (e.g., survey responses), or indirectly inferred/derived from other data (e.g., part-of-speech tags, model-based guesses for age or language)? If the data was reported by subjects or indirectly inferred/derived from other data, was the data validated/verified? If so, please describe how._ <br>
-
+The data was retrieved from [Kaggle](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated). This in turn used data from WHO, WorldBank, and Our World in Data.
 
 **What mechanisms or procedures were used to collect the data (e.g., hardware apparatuses or sensors, manual human curation, software programs, software APIs)?** _How were these mechanisms or procedures validated?_ <br>
+Not known.
 
 **If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?** <br>
+It is the complete dataset.
 
 **Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how muchwere crowdworkers paid)?**
+Not known.
 
 **Over what time frame was the data collected?** _Does this timeframe match the creation timeframe of the data associated with the instances
  (e.g., recent crawl of old news articles)? If not, please describe the timeframe in which the data associated with the instances was created._ <br>
+The data was collected over the period 2000-2015 which corresponds to the timeframe of the data.
 
 **Were there any ethical review processes conducted (e.g. by an institutional reviewing board?)** _If so, please provide a description of these review processes, including the outcomes, as well as a link or other access point to any supporting documentation._ <br>
+Not known.
 
 **Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?** <br>
+The data was obtained from the Kaggle website.
 
 **Were the individuals in question notified about the data collection?** _If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or other wise reproduce, the exact language of the notification itself._
+Not known.
 
 **Did the individuals in question consent to the collection and use of their data?** _If so, please describe (or show with screenshots or other information) how consent was requested and provided, and provide a link or other access point to, or otherwise reproduce, the exact language to which the individuals consented._ <br>
+Not known.
 
 **If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?** _If so, please provide a description, as well as a link or other access point to the mechanism (if appropriate)._ <br>
+Not known.
 
 **Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?** _If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation._
+Not known.
 
 **Any other comments?**
+No.
 
 ## Preprocessing/cleaning/labelling
 
 **Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?** _If so, please provide a description. If not, you may skip the remaining questions in this section._ <br>
+No.
 
 **Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?** _If so, please provide a link or other access point to the
  “raw” data._ <br>
+No.
 
-**Is the software that wasusedtopreprocess/clean/label the data available?** _If so, please provide a link or other access point._ <br>
+**Is the software that was used to preprocess/clean/label the data available?** _If so, please provide a link or other access point._ <br>
+No.
 
 **Any other comments?** <br>
+No.
 
 ## Uses
 **Has the dataset been used for any tasks already?** _If so, please provide a description._ <br>
+Yes. Many other users on Kaggle have used this dataset.
 
 **Is there a repository that links to any or all papers or systems that use the dataset?** _If so, please provide a link or other access point._ <br>
+This information is available in [Kaggle](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated/code).
 
 **What (other) tasks could the dataset be used for?**
+This could be used for studying trends in vaccinations, schooling, or infant deaths.
 
 **Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?** _For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?_ <br>
+Not known.
 
 **Are there tasks for which the dataset should not be used?** _If so, please provide a description._ <br>
+Not known.
 
 **Any other comments?** <br>
+No.
 
 ## Distribution
 **Will the dataset be distributed to third parties outside of the entity (e.g., company, institution, organization) on behalf of which the dataset was created?** _If so, please provide a description._ <br>
+This dataset is publically available on Kaggle.
 
 **How will the dataset will be distributed (e.g., tarball on website, API, GitHub)?** _Does the dataset have a digital object identifier (DOI)?_ <br>
+The CSV dataset is publically available on [Kaggle](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated/data).
 
 **When will the dataset be distributed?** <br>
+It was distributed on Kaggle in 2023.
 
 **Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?** _If so, please describe this license and/or ToU, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms or ToU, as well as any fees associated with these restrictions._ <br> 
+There is no copyright. It is distributed under the [Creative Commons license 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 **Have any third parties imposed IP-based or other restrictions on the data associated with the instances?** _If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms, as well as any fees associated with these restrictions._ <br>
+No.
 
 **Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?** _If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any supporting documentation._ <br>
+No.
  
 **Any other comments?** <br>
+No.
 
 ## Maintenance
 **Who will be supporting/hosting/maintaining the dataset?** <br>
+The creator has declared that no updates will be produced.
 
 **How can the owner/curator/manager of the dataset be contacted (e.g., email address)?** <br>
+The creator is available via [Kaggle](https://www.kaggle.com/lashagoch), [GitHub](https://github.com/lashagoch), or [LinkedIn](https://www.linkedin.com/in/lashagochiashvili/).
 
 **Is there an erratum?** _If so, please provide a link or other access point._ <br>
+No.
 
 **Will the dataset be updated (e.g., to correct labeling errors, add new instances, delete instances)?** _If so, please describe how often, by whom, and how updates will be communicated to data set consumers(e.g., mailing list, GitHub)?_ <br>
+No.
 
 **If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (e.g., were the individuals in question told that their data would be retained for a fixed period of time and then deleted)?** _If so, please describe these limits and explain how they will be enforced._ <br>
+N/A.
 
 **Will older versions of the dataset continue to be supported/hosted/maintained?** _If so, please describe how. If not, please describe how its obsolescence will be communicated to dataset consumers._ <br>
+N/A.
 
 **If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?** _If so, please provide a description. Will these contributions be validated/verified? If so, please describe how. If not, why not? Is there a process for communicating/distributing these contributions to dataset consumers? If so, please provide a description._ <br>
+No.
 
 **Any other comments?** <br>
+None.
