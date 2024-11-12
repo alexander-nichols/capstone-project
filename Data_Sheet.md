@@ -3,20 +3,27 @@ The dataset was provided on the Kaggle weksite [Life Expectancy (WHO) Fixed](htt
 
 ## Motivation
 **For what purpose was the dataset created?** _Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description._ <br>
+The primary motivation given [here](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated) is to correct an [existing](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who) WHO dataset. 
 
 **Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?** <br>
+The dataset was created by a data scientist Lasha Gochiashvili. No affiliation was provided on [Kaggle](https://www.kaggle.com/lashagoch) 
 
 **Who funded the creation of the dataset?** _If there is an associated grant, please provide the name of the grantor and the grant name and number._ <br>
+No funding is mentioned.
 
 **Any other comments?** <br>
+None
 
 ## Composition
 **What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?** _Are there multiple types of in
 stances (e.g., movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description._ <br>
+This is tabular numerical data.
 
 **How many instances are there in total (of each type, if appropriate)?** <br>
+There are 2,864 instances in total.
 
 **Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?** _If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g., geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable)._ <br>
+It contains all possible instances.
 
 **What data does each instance consist of?**  _“Raw” data (e.g., unprocessed text or images) or features? In either case, please provide a description._ <br>
 
