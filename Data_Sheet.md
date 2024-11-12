@@ -41,7 +41,7 @@ There are no relationships.
 No.
 
 **Are there any errors, sources of noise, or redundancies in the dataset?** _If so, please provide a description._ <br>
-There is no redundancy.
+There is a minor redundancy in that the fields _Economy_status_Developed_ and _Economy_status_Developing_ provide precisely complementary information.
  
 **Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?** _If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (i.e., including the external resources as they existed at the time the dataset was created); c) are there any restrictions (e.g. licenses, fees) associated with any of the external resources that might apply to a dataset consumer? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate._ <br>
 The dataset is self-contained.
