@@ -34,7 +34,7 @@ No. All numerical data, including life expectancy, is provided for each Country 
 **Is there any missing information from individual instances?** _If so, please provide a description, explaining why this information is missing (e.g., because it was unavailable). This does not include intentionally removed information, but might include, e.g., redacted text._ <br>
 No.
 
-**Are relationships between individual instances made explicit (e.g. users’ movie ratings, social network links)?** _If so, please describe how these relationships are made explicit._
+**Are relationships between individual instances made explicit (e.g. users’ movie ratings, social network links)?** _If so, please describe how these relationships are made explicit._ <br>
 There are no relationships.
 
 **Are there recommended data splits (e.g., training, development/validation, testing)?** _If so, please provide a description of these splits, explaining the rationale behind them._ <br>
@@ -55,7 +55,7 @@ No.
 **Does the dataset identify any subpopulations (e.g., by age, gender)?** _If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset._ <br>
 The dataset is indexed by Country and Year.
 
-**Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset?** _If so, please describe how._
+**Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset?** _If so, please describe how._ <br>
 No.
 
 **Does the dataset contain data that might be considered sensitive in any way (e.g., data that reveals race or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)?** _If so, please provide a description._ <br>
@@ -74,7 +74,7 @@ Not known.
 **If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?** <br>
 It is the complete dataset.
 
-**Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how muchwere crowdworkers paid)?**
+**Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowd workers paid)?** <br>
 Not known.
 
 **Over what time frame was the data collected?** _Does this timeframe match the creation timeframe of the data associated with the instances
@@ -87,7 +87,7 @@ Not known.
 **Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?** <br>
 The data was obtained from the Kaggle website.
 
-**Were the individuals in question notified about the data collection?** _If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or other wise reproduce, the exact language of the notification itself._
+**Were the individuals in question notified about the data collection?** _If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or other wise reproduce, the exact language of the notification itself._ <br>
 Not known.
 
 **Did the individuals in question consent to the collection and use of their data?** _If so, please describe (or show with screenshots or other information) how consent was requested and provided, and provide a link or other access point to, or otherwise reproduce, the exact language to which the individuals consented._ <br>
@@ -96,10 +96,10 @@ Not known.
 **If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?** _If so, please provide a description, as well as a link or other access point to the mechanism (if appropriate)._ <br>
 Not known.
 
-**Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?** _If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation._
+**Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?** _If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation._ <br>
 Not known.
 
-**Any other comments?**
+**Any other comments?** <br>
 No.
 
 ## Preprocessing/cleaning/labelling
@@ -124,7 +124,7 @@ Yes. Many other users on Kaggle have used this dataset.
 **Is there a repository that links to any or all papers or systems that use the dataset?** _If so, please provide a link or other access point._ <br>
 This information is available in [Kaggle](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated/code).
 
-**What (other) tasks could the dataset be used for?**
+**What (other) tasks could the dataset be used for?** <br>
 This could be used for studying trends in vaccinations, schooling, or infant deaths.
 
 **Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?** _For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?_ <br>
