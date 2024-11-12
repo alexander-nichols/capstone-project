@@ -2,7 +2,7 @@
 The dataset was provided on the Kaggle website [Life Expectancy (WHO) Fixed](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated). It provides life expectatancy and a number of health and economic related indicators for the period 2000-2015. This was based on primary data sources from _WHO_, _World Bank_, and _Our World in Data_:
 
 - The [World Health Organization (WHO)](https://www.who.int/about) is a specialized agency of the United Nations responsible for global public health.
-- The [World Bank](https://www.worldbank.org/ext/en/who-we-are)) is an international financial institution that provides loans and grants to the governments of low- and middle-income countries for the purposes of economic development.
+- The [World Bank](https://www.worldbank.org/ext/en/who-we-are) is an international financial institution that provides loans and grants to the governments of low- and middle-income countries for the purposes of economic development.
 - [Our World in Data](https://ourworldindata.org/about) is a collaborative effort between researchers at the University of Oxford, who are the scientific editors of the website content; and the non-profit organization Global Change Data Lab (GCDL), who publishes and maintains the website and the data tools that make our work possible.
 
 ## Motivation
