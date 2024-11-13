@@ -34,7 +34,7 @@ The data schema is given here: https://www.kaggle.com/datasets/lashagoch/life-ex
 
 For convenience I have summarised this below:
 
-| Attribute                  | Comment     | Source  |
+| Attribute                  | Comment     | Source &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | :----                       | :----         | :-----
 | Country                     | List of 179 countries  | 
 | Region                      | 179 countries are distributed in 9 regions. E.g. Africa, Asia, Oceania, European Union, Rest of Europe and etc. | 
