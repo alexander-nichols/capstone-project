@@ -30,9 +30,9 @@ The model was assessed using the following metrics:
 
 - Mean squared error
 - Mean absolute error
-- Mean Absolute Percentage Error
-- Maximum Error, $\max_i |X^{(i)}_{predict} - X^{(i)}_{actual}|$
-- $R^2$ Score, [Coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) 
+- Mean absolute percentage error
+- Maximum Error, $`\max_i |X^{(i)}_{predict} - X^{(i)}_{actual}|`$
+- $`R^2`$ Score, [Coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) 
 
 Calibrating the model using 20\% of the data sample gave the following performance:
 
@@ -40,7 +40,7 @@ Calibrating the model using 20\% of the data sample gave the following performan
 - Mean absolute error: 0.437
 - Mean Absolute Percentage Error: 0.007
 - Maximum Error: 3.10
-- $R^2$ Score: 0.995
+- $`R^2`$ Score: 0.995
 
 ## Limitations
 
