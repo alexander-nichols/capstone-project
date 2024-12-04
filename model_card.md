@@ -51,40 +51,55 @@ The permutation importance of the main features was very similar between the tra
 The model should only be used for developing countries. It has been tested on annual data from a number of different developing countries over a period from 2000-2015. This covered a number of natural disasters however it may not be appropriate outside this context.
 
 # Model Results
-In this section we include some model results as they give further insight into the features impacting the model outcome and the ability to generalise.
+In this section we include some model results as they give further insight into the generalisability of the model and the features impacting the life expectancy.
 
-## Developing Countries
+XGBoost is an ensemble method which is generally less interpretable than a simple decision tree. We use two inspection methods to understand the impact of features on the training and test sets:
+
+- **Permutation Importance:** This shows the decrease in the performance (mean squared error) if a single feature is randomised. This gives insight into the factors driving the training and test performance. A model which is generalising properly, and not overfitting to the training set, should have a similar level of  feature importance for both the training and test sets.
+
+- **Dependency analysis:** We used [Partial dependence and individual conditional expectation plots](https://scikit-learn.org/stable/modules/partial_dependence.html) to understand how the life expectancy predictions for the test set depended on the most important features. Partial dependency plots show the average impact across the test set. The individual conditional expectation plot shows the impact on each individual element of the test set. 
+
+In the below the fine blue lines correspond to the individual conditional expectation plot and the orange lines, marked average, are the partial dependency plot. 
+
+## All Developing Countries
 ### Permutation Importance
 
 <img src="img/permutation_importance.png" alt="drawing" width="400"/>
 
-### Partial Dependency
-**Adult mortality**
+These results show that the drivers are extremely similar between the training and test sets indicating the model is generalising correctly and not simply overfitting to the training set.
+
+### Dependency analysis
+
+#### Adult mortality
 
 <img src="img/partial_adult_mortality.png" alt="drawing" width="400"/>
 
-**Schooling**
+Increased levels of adult mortality are associated with lower life expectancy both on average and across all samples.
+#### Schooling
 
 <img src="img/partial_schooling.png" alt="drawing" width="400"/>
 
-**GDP per capita**
+Increased levels of schools lead to high life expectancy with almost complete uniformity 
+#### GDP per capita
 
 <img src="img/partial_GDP_per_capita.png" alt="drawing" width="400"/>
 
 ## African Countries:
+All African countries are classes as developing during the period 2000-2015.
+
 ### Permutation Importance
 
 <img src="img/africa_permutation_importance.png" alt="drawing" width="400"/>
 
-### Partial Dependency
-**Adult mortality**
+### Dependency analysis
+#### Adult mortality
 
 <img src="img/africa_partial_adult_mortality.png" alt="drawing" width="400"/>
 
-**Schooling**
+#### Schooling
 
 <img src="img/africa_partial_schooling.png" alt="drawing" width="400"/>
 
-**Polio**
+#### Polio
 
 <img src="img/africa_partial_polio.png" alt="drawing" width="400"/>
