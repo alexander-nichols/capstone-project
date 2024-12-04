@@ -1,15 +1,13 @@
 # Model Card
-The model predicts the life expectancy based on a number of other key health indicators. The World Health Organization (WHO) defines life expectancy as the average number of years a person can expect to live in a specific area, based on current mortality rates.
-
-The model was trained on a dataset available in Kaggle: [Life Expectancy (WHO) Fixed](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated). This was based on primary data sources from _WHO_, _World Bank_, and _Our World in Data_. More details on the data set can be found in [Data_Sheet.md](Data_Sheet.md).
+Life expectancy is defined as the average number of years a person can expect to live based on current mortality rates. This model predicts life expectancy based on a number of other key health indicators. 
 
 ## Overview
 
-#### Developer
-This model was constructed in a private capacity.
+**Developer:** This model was constructed in a private capacity.
 
-#### Intended Usage
-This model is intended for research purposes and should not be used for policymaking without further investigation into accuracy and potential biases.
+**Intended Usage:** This model is intended for research purposes and should not be used for policymaking without further investigation into accuracy and potential biases.
+
+**Training and Testing data** The model was trained on a dataset available in Kaggle: [Life Expectancy (WHO) Fixed](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated). This was based on primary data sources from _WHO_, _World Bank_, and _Our World in Data_. More details on the data set can be found in [Data_Sheet.md](Data_Sheet.md). For the purposes of assessing the model performance 80% of the data was used for training and 20% for testing. 
 
 ## Model Description
 
@@ -42,10 +40,8 @@ Calibrating the model using 20\% of the data sample gave the following performan
 - Maximum Error: 3.10
 - $`R^2`$ Score: 0.995
 
-## Limitations
+## Limitations & Bias
 
 The model has been tested on annual data from a number of different countries over a period from 2000-2015. This covered a number of natural disasters however it may not be appropriate outside this context.
-
-## Trade-offs
 
 The training set contains more developing economies and so the model displays a natural bias.
