@@ -79,11 +79,12 @@ Increased levels of adult mortality are associated with lower life expectancy bo
 
 <img src="img/partial_schooling.png" alt="drawing" width="400"/>
 
-Increased levels of schools lead to high life expectancy with almost complete uniformity 
+Increased levels of years in schooling are associated with higher life expectancy both on average and across all samples. This effect diminishes after around 9 years.
 #### GDP per capita
 
 <img src="img/partial_GDP_per_capita.png" alt="drawing" width="400"/>
 
+Increased levels of GDP per capita are associated with higher life expectancy however this effect reduces around $50,000.
 ## African Countries:
 All African countries are classes as developing during the period 2000-2015.
 
@@ -96,10 +97,18 @@ All African countries are classes as developing during the period 2000-2015.
 
 <img src="img/africa_partial_adult_mortality.png" alt="drawing" width="400"/>
 
+Increased levels of adult mortality are associated with lower life expectancy both on average and across all samples.
 #### Schooling
 
 <img src="img/africa_partial_schooling.png" alt="drawing" width="400"/>
 
+Increased levels of years in schooling are associated with higher life expectancy both on average and across all samples. This effect diminishes after around 9 years.
+
 #### Polio
 
 <img src="img/africa_partial_polio.png" alt="drawing" width="400"/>
+
+Increased levels of polio vaccination result in higher life expectancy both on average and across all samples. This effect is particularly significant for countries with a life expectancy between 50-60 years.
+
+## Conclusion
+The direct of the dependencies aligns with intuition indicating that the model is behaving sensibly both across the entire set of developing countries and within a specific subset, Africa.
