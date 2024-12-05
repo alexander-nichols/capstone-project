@@ -42,7 +42,9 @@ Calibrating the model using 20\% of the data sample gave the following performan
 - Training Time: 282 ms
 - Prediction Time: 3 ms
 
-<img src="img/prediction.png" alt="drawing" width="400"/>
+<p align="center">
+  <img src="img/prediction.png" alt="drawing" width="400"/>
+</p>
 
 ## Generalisation
 The permutation importance of the main features was very similar between the training and test sets indicating good generalisation.
@@ -55,60 +57,70 @@ In this section we include some model results as they give further insight into 
 
 XGBoost is an ensemble method which is generally less interpretable than a simple decision tree. We use two inspection methods to understand the impact of features on the training and test sets:
 
-- **Permutation Importance:** This shows the decrease in the performance (mean squared error) if a single feature is randomised. This gives insight into the factors driving the training and test performance. A model which is generalising properly, and not overfitting to the training set, should have a similar level of  feature importance for both the training and test sets.
+- **Feature Importance:** We can use permutation importance to gain insight into the features that drive the training and test performance. Permutation importance is defined as the decrease in the performance (mean squared error) if a single feature is randomised. A model which is generalising properly, and not overfitting to the training set, should have a similar level of  feature importance for both the training and test sets.
 
 - **Dependency analysis:** We used [Partial dependence and individual conditional expectation plots](https://scikit-learn.org/stable/modules/partial_dependence.html) to understand how the life expectancy predictions for the test set depended on the most important features. Partial dependency plots show the average impact across the test set. The individual conditional expectation plot shows the impact on each individual element of the test set. 
 
 In the below the fine blue lines correspond to the individual conditional expectation plot and the orange lines, marked average, are the partial dependency plot. 
 
 ## All Developing Countries
-### Permutation Importance
 
-<img src="img/permutation_importance.png" alt="drawing" width="400"/>
-
+### Feature Importance
 These results show that the drivers are extremely similar between the training and test sets indicating the model is generalising correctly and not simply overfitting to the training set.
+
+<p align="center">
+<img src="img/permutation_importance.png" alt="drawing" width="400"/>
+</p>
 
 ### Dependency analysis
 
-#### Adult mortality
+- Adult mortality: Increased levels of adult mortality are associated with lower life expectancy both on average and across all samples.
 
-<img src="img/partial_adult_mortality.png" alt="drawing" width="400"/>
+<p align="center">
+  <img src="img/partial_adult_mortality.png" alt="drawing" width="400" />
+</p>
 
-Increased levels of adult mortality are associated with lower life expectancy both on average and across all samples.
-#### Schooling
+- Schooling: Increased levels of years in schooling are associated with higher life expectancy both on average and across all samples. This effect diminishes after around 9 years.
 
-<img src="img/partial_schooling.png" alt="drawing" width="400"/>
+<p align="center">
+  <img src="img/partial_schooling.png" alt="drawing" width="400"/>
+</p>
 
-Increased levels of years in schooling are associated with higher life expectancy both on average and across all samples. This effect diminishes after around 9 years.
-#### GDP per capita
+- GDP per capita: Increased levels of GDP per capita are associated with higher life expectancy however this effect reduces around $50,000.
 
-<img src="img/partial_GDP_per_capita.png" alt="drawing" width="400"/>
+<p align="center">
+  <img src="img/partial_GDP_per_capita.png" alt="drawing" width="400"/>
+</p>
 
-Increased levels of GDP per capita are associated with higher life expectancy however this effect reduces around $50,000.
 ## African Countries:
 All African countries are classes as developing during the period 2000-2015.
 
-### Permutation Importance
+### Feature Importance
 
-<img src="img/africa_permutation_importance.png" alt="drawing" width="400"/>
+<p align="center">
+  <img src="img/africa_permutation_importance.png" alt="drawing" width="400"/>
+</p>
 
 ### Dependency analysis
-#### Adult mortality
 
-<img src="img/africa_partial_adult_mortality.png" alt="drawing" width="400"/>
+- Adult mortality: Increased levels of adult mortality are associated with lower life expectancy both on average and across all samples.
 
-Increased levels of adult mortality are associated with lower life expectancy both on average and across all samples.
-#### Schooling
+<p align="center">
+  <img src="img/africa_partial_adult_mortality.png" alt="drawing" width="400"/>
+</p>
 
-<img src="img/africa_partial_schooling.png" alt="drawing" width="400"/>
+- Schooling: Increased levels of years in schooling are associated with higher life expectancy both on average and across all samples. This effect diminishes after around 9 years.
 
-Increased levels of years in schooling are associated with higher life expectancy both on average and across all samples. This effect diminishes after around 9 years.
+<p align="center">
+  <img src="img/africa_partial_schooling.png" alt="drawing" width="400"/>
+</p>
 
-#### Polio
 
-<img src="img/africa_partial_polio.png" alt="drawing" width="400"/>
+- Polio: Increased levels of polio vaccination result in higher life expectancy both on average and across all samples. This effect is particularly significant for countries with a life expectancy between 50-60 years.
 
-Increased levels of polio vaccination result in higher life expectancy both on average and across all samples. This effect is particularly significant for countries with a life expectancy between 50-60 years.
+<p align="center">
+  <img src="img/africa_partial_polio.png" alt="drawing" width="400"/>
+</p>
 
 ## Conclusion
-The direct of the dependencies aligns with intuition indicating that the model is behaving sensibly both across the entire set of developing countries and within a specific subset, Africa.
+The direct of the dependencies aligns with intuition indicating that the model is behaving sensibly both across the entire set of developing countries and within an important specific subset, Africa.
