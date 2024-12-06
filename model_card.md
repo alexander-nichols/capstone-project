@@ -18,15 +18,14 @@ The inputs are a number of different health and population indicators. These are
 The model output is the prediction for the life expectancy.
 
 **Model Architecture:** 
-The model uses version 2.1.1 of the [XGBoost](https://xgboost.readthedocs.io/en/stable/get_started.html) library with the following parameters:
+The model uses version 2.1.1 of the [XGBoost](https://xgboost.readthedocs.io/en/stable/get_started.html) library. A grid search was conducted to identify the optimal values for two key parameters, learning rate and maximum depth, that would maximize the performance of the XGBoost model on the test set. This process yielded the following results:
 
-- Learning Parameter, eta: 0.1
-- Maximum depth of the tree, max_depth: 10
+- Learning rate (eta): 0.1
+- Maximum depth of the tree (max_depth): 10
 
 ## Performance
-The model was assessed using the following metrics:
+The model performance was optimised using the _mean squared error_ metric. Addiitonal metrics that we calculated were:
 
-- Mean squared error
 - Mean absolute error
 - Mean absolute percentage error
 - Maximum Error, $`\max_i |X^{(i)}_{predict} - X^{(i)}_{actual}|`$
@@ -123,4 +122,4 @@ All African countries are classes as developing during the period 2000-2015.
 </p>
 
 ## Conclusion
-The direct of the dependencies aligns with intuition indicating that the model is behaving sensibly both across the entire set of developing countries and within an important specific subset, Africa.
+The key features, and their dependency, aligns with intuition indicating that the model is behaving sensibly across the entire set of developing countries and within an important specific subset, Africa.
