@@ -37,6 +37,7 @@ The model performance was assessed using data from the that it hadn’t seen bef
 This project shows how machine learning can help predict life expectancy in developing countries and provide valuable insights to improve healthcare strategies. The model helps us understand which factors—like healthcare, economy, and education—are most important for improving life expectancy.
 
 **How Can This Help?**
+
 By using the model’s predictions, governments and organizations can make better decisions about where to focus healthcare resources and policies. For example, if a country’s life expectancy is lower than expected, the model can suggest areas that need improvement, such as increasing healthcare spending or focusing on education.
 
 **Future Improvements**
