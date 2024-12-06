@@ -19,20 +19,27 @@ A detailed description of the data can be found in the [data_sheet](data_sheet.m
 
 ## Model
 **How the model works**
-To make accurate predictions, we used a machine learning model called _XGBoost_. XGBoost is a well established model which is highly optimised for structured datasets like this one. The model looks at the historical data from many developing countries and tries to understand which factors are most important in predicting life expectancy. It then uses this knowledge to make predictions for scenarios that were not part of the original data. 
 
-XGBoost contains a number of implementation-specific hyperparameters which we chose to ensure a good performance. Further details can be found in [model_card](model_card.md).
+To make accurate predictions we used a machine learning model called _XGBoost_ which is highly optimised for structured datasets. The model tries to understand which factors in the training set are most important in predicting life expectancy. It then uses this knowledge to make predictions for scenarios that were not part of the original data. 
+
+XGBoost contains a number of implementation-specific hyperparameters which we fine-tuned  to ensure a good performance. Further details can be found in [model_card](model_card.md).
 
 **Performance Metrics**
 
-To test how well the model works, we divided the overall dataset into two parts: one part, comprising 80% of the dataset, was used to train the model, and the remainder was used to test it. The model was able to predict life expectancy on the test set with a standard deviation of about 0.6 years. This means that if the model predicts that a country will have a life expectancy of 70 years, the actual life expectancy is very likely to lie between 69 years or 71 years. This small difference shows that the model is accurate, but it's not perfect.
-
-**Generalisability**
-
-The model performance was assessed using data that it hadn’t seen before to ensure it did not overfit to the training data. An analysis of the most important features influencing performance showed similar results from both the training and test set again confirming that it was reliable and can be used to predict life expectancy for other scenarios not in the dataset. Further details can be found on the [model_card](model_card.md).
+To test how well the model performs, we divided the overall dataset into two parts: one part, comprising 80% of the dataset, was used to train the model, and the remainder was used to test it. The model was able to predict life expectancy on the test set with a standard deviation of about 0.6 years. This means that if the model predicts that a country will have a life expectancy of 70 years, the actual life expectancy almost certainly lies between 69 years or 71 years. This small difference shows that the model is accurate, but it's not perfect.
 
 ## Results
+An analysis demonstrated that the same features influenced performance in both the training and test sets, further confirming that the model was not overfitting and can be used to predict life expectancy in scenarios beyond those in the dataset.
 
+The following features were identified as the primary drivers of life expectancy in developing countries:
+
+- **Adult mortality:** Reductions in adult mortality contribute to increased life expectancy.
+- **Schooling:** Higher levels of education are associated with longer life expectancy.
+- **GDP per capita:** A higher GDP per capita is linked to longer life expectancy.
+
+Additionally, in Africa, increases in the level of **polio vaccination** were found to be a significant factor in driving improvements in life expectancy.
+
+Further details can be found on the [model_card](model_card.md).
 
 ## Conclusion
 This project shows how machine learning can help predict life expectancy in developing countries and provide valuable insights to improve healthcare strategies. The model helps us understand which factors are most important for improving life expectancy.
