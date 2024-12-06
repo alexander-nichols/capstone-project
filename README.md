@@ -55,4 +55,4 @@ By using the model’s predictions, governments and organizations can make bette
 - The model could be used to make predictions for specific regions or communities within countries to provide more detailed guidance.
 
 ## Contact details
-For any queries please reach out to me at <alexander_nichols@hotmail.com>.
+- Alexander Nichols: <alexander_nichols@hotmail.com>
