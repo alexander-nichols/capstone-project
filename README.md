@@ -1,5 +1,7 @@
 # Capstone Project: Predicting Life Expectancy for Developing Countries
 
+This overview is designed for a non-technical audience. More technical readers should look [here](files.md) for further details and analysis
+
 ## Overview
 
 This model predicts life expectancy for developing countries using machine learning techniques. By analysing historical data from authoritative sources, such as the World Health Organization (WHO), the model seeks to provide valuable insights for policymakers, researchers, and social organisations. These insights could help develop and enhance healthcare strategies, improve resource allocation, and drive targeted interventions to improve public health outcomes in these regions.
