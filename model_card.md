@@ -45,7 +45,13 @@ Calibrating the model using 20\% of the data sample gave the following performan
   <img src="img/prediction.png" alt="drawing" width="400"/>
 </p>
 
-**Generalisation:** As shown in the Model Results section the permutation importance of the key features was very similar between the training and test sets indicating good generalisation.
+We can also observe that the residuals are approximately normally distributed:
+
+<p align="center">
+  <img src="img/residuals.png" alt="drawing" width="400"/>
+</p>
+
+**Generalisation:** As shown in the Model Results section below the permutation importance of the key features was very similar between the training and test sets indicating good generalisation.
 
 ## Limitations & Bias
 The model should only be used for developing countries. It has been tested on annual data from a number of different developing countries over a period from 2000-2015. This covered a number of periods of stress, including natural disasters, however it may not be appropriate in more extreme scenarios.
