@@ -7,12 +7,12 @@ Life expectancy is defined as the average number of years a person can expect to
 
 **Intended Usage:** This model is intended for research purposes and should not be used for policymaking without further investigation into accuracy and potential biases.
 
-**Training and Testing data** The model was trained on a dataset available in Kaggle: [Life Expectancy (WHO) Fixed](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated). This was based on primary data sources from _WHO_, _World Bank_, and _Our World in Data_. More details on the data set can be found in [Data_Sheet.md](Data_Sheet.md). For the purposes of assessing the model performance 80% of the data was used for training and 20% for testing. 
+**Training and Testing data** The model was trained on a dataset available in Kaggle: [Life Expectancy (WHO) Fixed](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated). This was based on primary data sources from _WHO_, _World Bank_, and _Our World in Data_. More details on the data set can be found in [data_sheet.md](data_sheet.md). For the purposes of assessing the model performance 80% of the data was used for training and 20% for testing. 
 
 ## Model Description
 
 **Input:** 
-The inputs are a number of different health and population indicators. These are described in more detail in [Data_Sheet.md](Data_Sheet.md).
+The inputs are a number of different health and population indicators. These are described in more detail in [data_sheet.md](data_sheet.md).
 
 **Output:**
 The model output is the prediction for the life expectancy.
