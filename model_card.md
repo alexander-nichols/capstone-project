@@ -5,9 +5,9 @@ Life expectancy is defined as the average number of years a person can expect to
 
 **Developer:** This model was constructed in a private capacity.
 
-**Intended Usage:** This model is intended for research purposes and should not be used for policymaking without further investigation into accuracy and potential biases.
+**Intended Usage:** This model aims to provide valuable insights for policymakers, researchers, and social organizations in areas such as public health, economic planning, and social development. It is crucial to carefully review the model's accuracy and potential biases before using it directly for policy decisions.
 
-**Training and Testing data** The model was trained on a dataset available in Kaggle: [Life Expectancy (WHO) Fixed](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated). This was based on primary data sources from _WHO_, _World Bank_, and _Our World in Data_. More details on the data set can be found in [data_sheet.md](data_sheet.md). For the purposes of assessing the model performance 80% of the data was used for training and 20% for testing. 
+**Training and Test data:** The model was trained on a dataset available in Kaggle: [Life Expectancy (WHO) Fixed](https://www.kaggle.com/datasets/lashagoch/life-expectancy-who-updated). This was based on primary data sources from _WHO_, _World Bank_, and _Our World in Data_. More details on the data set can be found in [data_sheet.md](data_sheet.md). For the purposes of assessing the model performance 80% of the data was used for training and 20% for testing. 
 
 ## Model Description
 
@@ -24,7 +24,7 @@ The model uses version 2.1.1 of the [XGBoost](https://xgboost.readthedocs.io/en/
 - Maximum depth of the tree (max_depth): 10
 
 ## Performance
-The model performance was optimised using the _mean squared error_ metric. Addiitonal metrics that we calculated were:
+The model performance was optimised using the _mean squared error_ metric. Additional metrics that we calculated were:
 
 - Mean absolute error
 - Mean absolute percentage error
@@ -45,11 +45,10 @@ Calibrating the model using 20\% of the data sample gave the following performan
   <img src="img/prediction.png" alt="drawing" width="400"/>
 </p>
 
-## Generalisation
-The permutation importance of the main features was very similar between the training and test sets indicating good generalisation.
+**Generalisation:** As shown in the Model Results section the permutation importance of the key features was very similar between the training and test sets indicating good generalisation.
 
 ## Limitations & Bias
-The model should only be used for developing countries. It has been tested on annual data from a number of different developing countries over a period from 2000-2015. This covered a number of natural disasters however it may not be appropriate outside this context.
+The model should only be used for developing countries. It has been tested on annual data from a number of different developing countries over a period from 2000-2015. This covered a number of periods of stress, including natural disasters, however it may not be appropriate in more extreme scenarios.
 
 # Model Results
 In this section we include some model results as they give further insight into the generalisability of the model and the features impacting the life expectancy.
